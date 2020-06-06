@@ -23,7 +23,7 @@ import android.widget.Toast;
 import app.ij.alertdialogs.R;
 
 public class MainActivity extends AppCompatActivity {
-
+//YouTube Tutorial Series: https://www.youtube.com/playlist?list=PLLmkb5CTw5rSCT3szl8VLBjKhLC8ttt8B
     Button button;
     Button button2;
     Button button3;
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+//Tutorial on making custom dialogs:  https://youtu.be/iZnOIcSQ8n0
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,7 +117,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+//Tutorials on making Alert Dialogs
+//   https://youtu.be/n8oasrJs_eY
+//   https://youtu.be/EJ4LaV_DNh8
         button.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
